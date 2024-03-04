@@ -1,5 +1,9 @@
 h1{
     font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
     
 }
 
@@ -12,8 +16,20 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header, h1, footer{
+header, footer{
     background-color: aquamarine;
     padding: 12px;
     margin: auto;
+}
+img{
+    width: 325px;
+}
+nav{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
